@@ -95,7 +95,7 @@ input{
 .cta1{
     padding: 20px 60px;
     width: 75%;
-    height: 8vh;
+    height: 10vh;
 }
 
 button{
@@ -168,7 +168,7 @@ label{
     }
     .cta1{
         padding: 20px 80px;
-        width: 75%;
+        width: 108%;
         height: 10vh;
     }
     button{

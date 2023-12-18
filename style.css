@@ -1,0 +1,198 @@
+.attribution { font-size: 11px; text-align: center; color: hsl(0, 0%, 100%); }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-color: hsl(235, 18%, 26%);
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    font-family: 'Roboto',sans-serif;
+}
+
+.card1,.card2{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+}
+
+.card1{
+    margin-top: 5%;
+    display: flex;
+    width: 60%;
+}
+
+.card2{
+    width: 28%;
+    padding: 30px;
+    margin-top: 10%;
+    display: none;
+}
+
+.card2-icon-list{
+    height: 7vh;
+}
+
+.card2-h1{
+    font-size: 2.8em;
+}
+
+.cta2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 4px 6px 10px hsla(4, 100%, 67%, 0.5);
+    background-color: hsl(4, 100%, 67%);
+}
+
+.card1-h1{
+    font-size: 2.5em;
+    margin-top: 15%;
+}
+
+.text{
+    padding-left: 30px;
+    width: 100%;
+}
+
+.example-email{
+    font-weight: bold;
+}
+
+.main-img{
+    padding-right: 30px;
+    padding-left: 10%;
+    height: 75vh;
+}
+
+.icon-list{
+    margin-right: 5%;
+    align-self: center;
+}
+
+li{
+    list-style-type: none;
+    margin-left: -12%;
+    margin-top: 10px;
+}
+
+ul{
+    margin-bottom: 5%;
+}
+
+input{
+    border: 1px solid hsla(231, 7%, 60%,0.3);
+    padding: 15px 65px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 5%;
+}
+
+button{
+    padding: 15px 50px;
+    border: none;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(234, 29%, 20%);
+}
+
+form{
+    width: 100%;
+}
+
+label{
+    display: flex;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: hsl(234, 29%, 20%);
+    justify-content: space-between;
+}
+
+#emailInput::placeholder {
+    color: hsl(231, 7%, 60%, 0.7);
+}
+
+.error-message {
+    color: red;
+    margin-top: 5px;
+    font-size: 12px;
+}
+  
+@media screen and (max-width: 750px) {
+    body{
+        
+        background-color: hsl(0, 0%, 100%);
+    }
+    .card1{
+        margin: 0;
+        padding: 0;
+        width: 90%;
+        position: absolute;
+        flex-direction: column;
+    }
+
+    .card2{
+        width: auto;
+        height: 100vh;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .main-img{
+        position: relative;
+        order: 1;
+        height: 60vh;
+        top: -15%;
+        padding: 0;
+        margin: 0;
+    }
+    form{
+        width: 100%;
+    }
+    .icon-list{
+        margin-left: 3%;
+    }
+    .text{
+        order: 2;
+    }
+    input{
+        width: 75%;
+    }
+    button{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .card2-icon-list{
+        margin-top: 15%;
+    }
+    .attribution{
+        color: hsl(235, 18%, 26%);
+        background-color: hsl(0, 0%, 100%);
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 950px) {
+    .card1{
+        width: 88%;
+    }
+    .card2{
+        width: 50%;
+    }
+    .main-img{
+        height: 75vh;
+    }
+}
+@media screen and (min-width:951px) and (max-width:1150px) {
+    .card1{
+        width: 75%;
+    }
+    .main-img{
+        height: 80vh;
+    }
+}

@@ -21,7 +21,7 @@ body{
 
 .card1{
     display: flex;
-    width: 70%;
+    width: 65%;
 }
 
 .card2{
@@ -58,6 +58,7 @@ button:hover{
 
 .text{
     padding-left: 30px;
+    padding-right: 50px;
 }
 
 .example-email{
@@ -89,12 +90,12 @@ input{
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 5%;
-    width: 50%;
+    width: 55%;
 }
 
 .cta1{
     padding: 20px 60px;
-    width: 75%;
+    width: 88%;
     height: 10vh;
 }
 
@@ -202,7 +203,7 @@ label{
     }
     .cta1{
         height: 10vh;
-        width: 85%;
+        width: 95%;
     }
 }
 @media screen and (min-width:951px) and (max-width:1150px) {
@@ -213,10 +214,13 @@ label{
     .main-img{
         margin-left: 5%;
         padding-right: 10px;
-        height: 85vh;
+        height: 95vh;
     }
     .cta1{
-        width: 90%;
+        width: 100%;
         height: 10vh;
+    }
+    .card2{
+        width: 40%;
     }
 }

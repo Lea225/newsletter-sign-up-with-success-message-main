@@ -20,6 +20,7 @@ body{
 }
 
 .card1{
+    margin-top: 5%;
     display: flex;
     width: 65%;
 }
@@ -187,7 +188,6 @@ label{
 @media screen and (min-width: 751px) and (max-width: 950px) {
     .card1{
         width: 88%;
-        margin-top: 5%;
     }
     .card2{
         width: 50%;
@@ -208,7 +208,6 @@ label{
 }
 @media screen and (min-width:951px) and (max-width:1150px) {
     .card1{
-        margin-top: 5%;
         width: 75%;
     }
     .main-img{
